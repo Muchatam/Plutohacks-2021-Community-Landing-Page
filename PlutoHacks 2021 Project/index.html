@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Navbar</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+
+  <style>
+    .slider
+    {
+      width: 800px;
+      height: 400px;
+      position: absolute;
+      left: 50%;
+      top: 35%;
+      transform: translate(-50%, -50%);
+      background-image: url('https://corporate.bestbuy.com/wp-content/uploads/2017/05/fitbit_duluth_blog_v01.jpg');
+      background-size: 100% 100%;
+      animation: slider 24s infinite linear;
+    }
+  
+    @keyframes slider 
+    {
+      0% {background-image: url('https://corporate.bestbuy.com/wp-content/uploads/2017/05/fitbit_duluth_blog_v01.jpg');}
+      25% {background-image: url('https://i0.wp.com/www.gulfcoastinspections.com/wp-content/uploads/2021/01/Plantation.jpeg?w=1920&ssl=1');}
+      50% {background-image: url('https://d3jj1xescvzl2o.cloudfront.net/04-07-2020/t_d1ef2ba15f434dc7adf776e93bea4299_name_fl_ne_food_pantries_no_volunteers_coronavirus_040720e_scaled.jpg');}
+      75% {background-image: url('https://d1vhqlrjc8h82r.cloudfront.net/09-16-2021/t_4eb633eac5784e82a969fe04e89eac17_name_Hanna_Cleanup.jpg');}
+    }
+  
+  </style>
+
+  </head>
+  <header>
+    <img class="logo" src="images/logo3.jpg" alt="logo">
+    <ul>
+      <li><a href="#scroll1">About</a></li>
+      <li><a href="#scroll2">Events</a></li>
+      <li><a href="#scroll3">Volunteer</a></li>
+      <li><a href="#scroll4">Contact</a></li>
+      <li><a href="generalform.html"><button>Sign Up</button></a></li>
+    </ul>
+  </header>
+  <body style="background-color: #424242;">
+    <div class="box1"></div>
+    <div class="slider"></div>
+    <div class="box2"></div>
+    <div class="text2">
+      <h1 id="scroll1" style="color:rgba(176, 176, 176, 1)">
+      About
+      </h1>
+      The community of South Florida is an ever-growing populous of engaged, local citizens.  All throughout Broward, Palm Beach, Miami-Dade, and Monroe counties, there are hundreds of community events that you could be a part of.
+      <br>  
+      From volunteering at a local food bank to going to a carnival, there is something for everyone to enjoy.  We believe it is imperative that the community stays engaged, and it is our goal to provide the smoothest process to participate in these events. 
+      <br>
+      Sign up now to stay up-to-date with the latest opportunities in your area!
+
+   </div>
+  <div class="box3"></div>
+   <div class="text3">
+    <h1 id="scroll2" style="color:rgba(176, 176, 176, 1)">
+    Events
+    </h1>
+    There are hundreds of events and activites to partake in within our local community!  With events like community roller skating and music concerts being added every day, be sure to sign up to receive news of our latest opportunities!
+   </div>
+   <div class="box4"></div>
+   <div class="text4">
+    <h1 id="scroll3" style="color:rgba(176, 176, 176, 1)">
+    Volunteer
+    </h1>
+    There are many ways you can volunteer for us. From helping moderate the server to helping run the operation itself, the first step is to sign up to the right.
+    <a href="volunteerform.html"><button>Volunteer</button></a>
+   </div>
+   <div class="box5"></div>
+   <div class="text5">
+    <h1 id="scroll4" style="color:rgba(176, 176, 176, 1)">
+    Contact
+    </h1>
+    Contact us through email at sfcommunity@southflorida.gov
+   </div>
+  </style>
+  </body>
+</html>

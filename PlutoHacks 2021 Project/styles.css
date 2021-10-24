@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+body,html{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #383838;
+  scroll-behavior: smooth;
+  max-width: 1920px;
+  min-width: 480px
+}
+
+header{
+  width: 100%;
+  height: 70px;
+  background-color: #282828;
+}
+
+ul {
+  padding-right: 10px;
+  float: right;
+  margin-top: 8px;
+}
+
+li {
+  display: inline-block;
+  padding: 12px;
+}
+
+a {
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Work+Sans', sans-serif;
+  font-size: 16px;
+}
+
+a:hover{
+  color:rgba(176, 176, 176, 1);
+  transition: 0.5s;
+}
+
+button{
+  padding: 9px 23px;
+  background-color:rgba(176, 176, 176, 1);
+  font-size: 16px;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: rgba(122, 122, 122, 1);
+}
+
+img{
+  width: 420px;
+  padding-left: 15px;
+  padding-top: 4px;
+}
+
+.box1{
+  position:absolute;
+  background-color: #282828;
+  width: 100%;
+  height: 500px;
+  margin-top: 10px;
+}
+
+.box2{
+  position:absolute;
+  background-color: #282828;
+  width: 100%;
+  height: 200px;
+  margin-top: 520px;
+}
+
+.text2{
+  color: #ffffff;
+  font-family: 'Work+Sans', sans-serif;
+  font-size: 16px;
+  position:relative; 
+  left:80px; 
+  top:540px;
+
+}
+
+.box3{
+  position:absolute;
+  background-color: #282828;
+  width: 100%;
+  height: 180px;
+  margin-top: 596px;
+}
+
+.text3{
+  color: #ffffff;
+  font-family: 'Work+Sans', sans-serif;
+  font-size: 16px;
+  position:relative; 
+  left:80px; 
+  top:616px;
+
+}
+
+.box4{
+  position:absolute;
+  background-color: #282828;
+  width: 100%;
+  height: 200px;
+  margin-top: 689px;
+}
+
+.text4{
+  color: #ffffff;
+  font-family: 'Work+Sans', sans-serif;
+  font-size: 16px;
+  position:relative; 
+  left:80px; 
+  top:709px;
+
+}
+
+.box5{
+  position:absolute;
+  background-color: #282828;
+  width: 100%;
+  height: 200px;
+  margin-top: 784px;
+}
+
+.text5{
+  color: #ffffff;
+  font-family: 'Work+Sans', sans-serif;
+  font-size: 16px;
+  position:relative; 
+  left:80px; 
+  top:804px;
+
+}
